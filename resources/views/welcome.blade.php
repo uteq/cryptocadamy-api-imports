@@ -6,6 +6,8 @@
 
         <title>Laravel</title>
 
+        <script defer src="https://unpkg.com/alpinejs@3.10.2/dist/cdn.min.js"></script>
+
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
@@ -25,8 +27,13 @@
 
     <body class="antialiased bg-[#334155] max-w-4xl mx-auto my-10">
 
-    <div>
-
+    <div class="flex justify-between mb-3">
+        <div class="text-3xl font-bold inline-block text-transparent bg-clip-text bg-gradient-to-r from-[#9333EA] to-[#2cc0f9] mb-4">
+            Portfolio
+        </div>
+        <div class="text-gray-900 w-fit bg-yellow-500 px-2 rounded text-lg h-fit">
+            Munten kiezen
+        </div>
     </div>
 
         <div class="pb-3 border-b border-gray-400">
